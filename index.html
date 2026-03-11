@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -71,9 +71,9 @@ section{padding:20px;}
 <section>
 <h2>Photo Gallery</h2>
 <div class="gallery">
-<img src="photo.jpg" alt="Photo 1">
-<img src="photo.jpg" alt="Photo 2">
-<img src="photo.jpg" alt="Photo 3">
+<img src="gallery/photo1.jpg" alt="Photo 1">
+<img src="gallery/photo2.jpg" alt="Photo 2">
+<img src="gallery/photo3.jpg" alt="Photo 3">
 </div>
 </section>
 
@@ -99,23 +99,14 @@ section{padding:20px;}
 let text="Deepak Mahapatra";
 let i=0;
 function typing(){
-if(i<text.length){
-document.getElementById("name").innerHTML+=text.charAt(i);
-i++;
-setTimeout(typing,100);
-}
+  if(i<text.length){
+    document.getElementById("name").innerHTML+=text.charAt(i);
+    i++;
+    setTimeout(typing,100);
+  }
 }
 typing();
-</script
-  <section>
-  <h2>Photo Gallery</h2>
-  <div class="gallery">
-    <img src="gallery/photo1.jpg" alt="Photo 1">
-    <img src="gallery/photo2.jpg" alt="Photo 2">
-    <img src="gallery/photo3.jpg" alt="Photo 3">
-  </div>
-</section>
+</script>
 
 </body>
-
 </html>
